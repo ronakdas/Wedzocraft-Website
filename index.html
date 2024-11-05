@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WedzoCraft</title>
+    <link rel="icon" type="image/x-icon" href="/src/">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>WedZoCraft</h1>
+                <p>Crafting your wedding memories with passion and creativity</p>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>At WedZoCraft, we are passionate about capturing the beauty and emotion of your wedding day. With years of experience and an eye for detail, we create timeless memories that you'll cherish forever. Our team of skilled photographers blend artistry with technical expertise to ensure every precious moment is preserved in stunning detail.</p>
+            </div>
+        </section>
+
+        <section class="slideshow" aria-label="Wedding photo slideshow">
+            <div class="slideshow-container">
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Bride holding bouquet">
+                    <div class="slide-caption">Elegant bridal portraits</div>
+                </div>
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Wedding couple kissing">
+                    <div class="slide-caption">Capturing intimate moments</div>
+                </div>
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Bride and groom dancing">
+                    <div class="slide-caption">First dance as newlyweds</div>
+                </div>
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1509927083803-4bd519298ac4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Couple walking in garden">
+                    <div class="slide-caption">Romantic garden strolls</div>
+                </div>
+            </div>
+            <div class="slideshow-nav">
+                <button id="prevSlide" aria-label="Previous slide">&#10094;</button>
+                <button id="nextSlide" aria-label="Next slide">&#10095;</button>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <h2>Our Portfolio</h2>
+                <div class="gallery">
+                    <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Wedding couple kissing">
+                    <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Bride holding bouquet">
+                    <img src="https://images.unsplash.com/photo-1525772764200-be829a350797?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Wedding rings">
+                    <img src="https://images.unsplash.com/photo-1509927083803-4bd519298ac4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Couple walking in garden">
+                    <img src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Wedding cake">
+                    <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Bride and groom dancing">
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="service-list">
+                    <div class="service-item">
+                        <i>📸</i>
+                        <h3>Wedding Day Coverage</h3>
+                        <p>Full-day photography of your entire wedding celebration.</p>
+                    </div>
+                    <div class="service-item">
+                        <i>💑</i>
+                        <h3>Engagement Sessions</h3>
+                        <p>Capture your love story before the big day.</p>
+                    </div>
+                    <div class="service-item">
+                        <i>📘</i>
+                        <h3>Custom Albums</h3>
+                        <p>Beautifully designed albums to showcase your memories.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 WedZoCraft Wedding Photography. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                </a>
+                <a href="#" aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                </a>
+                <a href="#" aria-label="Pinterest">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 12a4 4 0 0 1 8 0 4 4 0  0 1-8 0z"></path><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="M4.93 4.93l1.41 1.41"></path><path d="M17.66 17.66l1.41 1.41"></path><path d="M4.93 19.07l1.41-1.41"></path><path d="M17.66 6.34l1.41-1.41"></path></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Slideshow functionality
+        const slideshowContainer = document.querySelector('.slideshow-container');
+        const slides = document.querySelectorAll('.slide');
+        const prevButton = document.getElementById('prevSlide');
+        const nextButton = document.getElementById('nextSlide');
+        let currentSlide = 0;
+
+        function showSlide(index) {
+            currentSlide = index;
+            slideshowContainer.style.transform = `translateX(-${index * 100}%)`;
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        // Event listeners for navigation buttons
+        nextButton.addEventListener('click', nextSlide);
+        prevButton.addEventListener('click', prevSlide);
+
+        // Automatic slideshow
+        let slideshowInterval = setInterval(nextSlide, 5000);
+
+        // Pause automatic slideshow when user interacts with navigation
+        function pauseSlideshow() {
+            clearInterval(slideshowInterval);
+        }
+
+        function resumeSlideshow() {
+            slideshowInterval = setInterval(nextSlide, 5000);
+        }
+
+        nextButton.addEventListener('mouseenter', pauseSlideshow);
+        nextButton.addEventListener('mouseleave', resumeSlideshow);
+        prevButton.addEventListener('mouseenter', pauseSlideshow);
+        prevButton.addEventListener('mouseleave', resumeSlideshow);
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') {
+                prevSlide();
+            } else if (e.key === 'ArrowRight') {
+                nextSlide();
+            }
+        });
+    </script>
+</body>
+</html>

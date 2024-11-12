@@ -52,7 +52,7 @@
 
         /* Hero Section */
         .hero {
-            background-image: url('https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-color : black;
             background-size: cover;
             background-position: center;
             height: 100vh;
@@ -125,7 +125,7 @@
         }
 
         .slideshow-nav button {
-            background-color: rgba(255, 255, 255, 0.7);
+            background-color: transparent;
             border: none;
             color: #333;
             font-size: 1.5rem;
@@ -135,7 +135,7 @@
         }
 
         .slideshow-nav button:hover {
-            background-color: rgba(255, 255, 255, 0.9);
+            background-color: rgba(79, 79, 79, 0.9);
         }
 
         /* Portfolio Section */
@@ -202,7 +202,7 @@
         }
 
         button {
-            background-color: #d4a5a5;
+            background-color: #000000;
             color: #fff;
             border: none;
             padding: 0.5rem 1rem;
@@ -211,7 +211,7 @@
         }
 
         button:hover {
-            background-color: #c28e8e;
+            background-color: rgba(0, 0, 0, 0.5);
         }
 
         /* Footer Styles */
